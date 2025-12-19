@@ -25,10 +25,17 @@ def get_ai_feedback(image):
             messages=[
                 {
                     "role": "system", 
-                    "content": "You are a Leaving Cert Math tutor. A student has uploaded their workout. "
-                               "1. Convert their work to LaTeX. "
-                               "2. Check for logic errors. "
-                               "3. If wrong, give a subtle hint about the step they missed. Don't just give the answer."
+                    "content": ("You are a Leaving Cert Math tutor. "
+                                "STRICT LATEX RULES:\n"
+                                "1. For inline math, ALWAYS put a space before and after the dollar signs."
+                                "Example: Write 'the value of $ x $ is' instead of 'the value of $x$ is'.\n"
+                                "2. NEVER wrap LaTeX in parentheses. If you need to use parentheses,"
+                                "put then inside the math block: $ (x+1) $.\n"
+                                "3. Use double dollar signs $$ for centered equations on their own line.\n"
+                                "Analyze the student's steps and provide Socratic feedback.\n"
+                                
+                    )
+
                 },
                 {
                     "role": "user",
@@ -63,6 +70,6 @@ if window_width:
             with st.spinner("Tutor is reviewing your steps..."):
                 feedback = get_ai_feedback(img)
                 st.markdown("### Tutor Feedback")
-                st.write(feedback)
+                st.markdown(feedback) # Using markdown to support LaTeX rendering
         else:
             st.warning("Please write your solution first!")
