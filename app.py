@@ -12,6 +12,9 @@ from openai import OpenAI
 import os
 import json
 
+if 'feedback_storage' not in st.session_state:
+    st.session_state['feedback_storage'] = {}
+
 def get_ai_feedback(image, question_text,client):
     """
     Converts image to base64 and fetches Socratic feedback.
@@ -111,5 +114,5 @@ if window_width:
         if canvas_key in st.session_state.feedback_storage:
             st.markdown("### Tutor Feedback")
             st.info(st.session_state.feedback_storage[canvas_key])
-            
+
         st.divider()
