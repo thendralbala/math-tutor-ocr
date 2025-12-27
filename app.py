@@ -66,8 +66,6 @@ def load_questions():
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 
-st.set_page_config(layout="wide", page_title="Math Tutor MVP")
-
 exam_data = load_questions()
 
 # Layout configuration
