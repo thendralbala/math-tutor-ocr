@@ -1,0 +1,21 @@
+{
+    "2024": [
+        {
+            "id": "2024_q1",
+            "topic": "Linear Equations",
+            "text": "Solve for $ x $: $ 4(x-3) = 2x + 10 $" 
+        },
+        {
+            "id": "2024_q2",
+            "topic": "Factorisation",
+            "text": "Factorise fully: $ 3x^2 - 12x $"
+        }
+    ],
+    "2023": [
+        {
+            "id": "2023_q1",
+            "topic": "Quadratic Equations",
+            "text": "Find the roots of: $ x^2 - 5x + 6 = 0 $"
+        }
+    ]
+}
