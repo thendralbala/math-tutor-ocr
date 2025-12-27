@@ -6,12 +6,14 @@ import base64
 import io
 import os
 import json
+import sys
 from openai import OpenAI
 from utils import get_ai_feedback, load_questions
 
 # Setup API Client
 # On Hugging Face, this will automatically pull from your "Secrets"
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 st.set_page_config(layout="wide", page_title="Math Tutor MVP")
 
