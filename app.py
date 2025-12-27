@@ -5,71 +5,58 @@ from PIL import Image
 import base64
 import io
 import os
+import json
 from openai import OpenAI
+from utils import get_ai_feedback, load_questions
 
-# 1. Setup API Client
+# Setup API Client
 # On Hugging Face, this will automatically pull from your "Secrets"
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 st.set_page_config(layout="wide", page_title="Math Tutor MVP")
 
-def get_ai_feedback(image):
-    # Convert PIL image to base64 string
-    buffered = io.BytesIO()
-    image.save(buffered, format="PNG")
-    img_base64 = base64.b64encode(buffered.getvalue()).decode("utf-8")
+    
+exam_data = load_questions()
 
-    try:
-        response = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {
-                    "role": "system", 
-                    "content": ("You are a Leaving Cert Math tutor. "
-                                "STRICT LATEX RULES:\n"
-                                "1. For inline math, ALWAYS put a space before and after the dollar signs."
-                                "Example: Write 'the value of $ x $ is' instead of 'the value of $x$ is'.\n"
-                                "2. NEVER wrap LaTeX in parentheses. If you need to use parentheses,"
-                                "put then inside the math block: $ (x+1) $.\n"
-                                "3. Use double dollar signs $$ for centered equations on their own line.\n"
-                                "Analyze the student's steps and provide Socratic feedback.\n"
-                                
-                    )
+# Layout configuration
+st.set_page_config(layout='wide', page_title="Leaving Cert Math Tutor")
 
-                },
-                {
-                    "role": "user",
-                    "content": [
-                        {"type": "text", "text": "Analyze my math steps:"},
-                        {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{img_base64}"}}
-                    ],
-                }
-            ],
-            max_tokens=500,
-        )
-        return response.choices[0].message.content
-    except Exception as e:
-        return f"Error: {str(e)}"
-
-# --- UI Layout ---
-st.title("📝 Leaving Cert Math Tutor")
+# Year selection sidebar
+selected_year = st.sidebar.selectbox("Select Exam Year:", list(exam_data.keys()))
+st.title(f"📝 {selected_year} Questions")
 window_width = streamlit_js_eval(js_expressions='window.innerWidth', key='WIDTH')
 
 if window_width:
     canvas_width = min(int(window_width * 0.9), 800)
-    canvas_result = st_canvas(
-        stroke_width=3, stroke_color="#000", background_color="#eee",
-        height=400, width=canvas_width, drawing_mode="freedraw", key="canvas"
-    )
 
-    if st.button("Analyze My Work", use_container_width=True):
-        if canvas_result.image_data is not None:
-            # Convert canvas to PIL Image
-            img = Image.fromarray(canvas_result.image_data.astype('uint8'), 'RGBA').convert("RGB")
-            
-            with st.spinner("Tutor is reviewing your steps..."):
-                feedback = get_ai_feedback(img)
-                st.markdown("### Tutor Feedback")
-                st.markdown(feedback) # Using markdown to support LaTeX rendering
-        else:
-            st.warning("Please write your solution first!")
+    questions = exam_data.get(selected_year, [])
+
+    for q in questions:
+        st.subheader(f"Question {q['topic']}")
+        st.markdown(q['text'])
+
+        # Unique keys for each canvas
+        canvas_key = f"canvas_{selected_year}_{q['id']}"
+
+        canvas_result = st_canvas(
+            stroke_width=3, 
+            stroke_color="#000", 
+            background_color="#eee",
+            height=400, 
+            width=canvas_width, 
+            drawing_mode="freedraw", 
+            key=canvas_key
+        )
+
+        if st.button(f"Analyze Question {q['id']}", key = f"btn_{canvas_key}"):
+            if canvas_result.image_data is not None:
+                # Convert canvas to PIL Image
+                img = Image.fromarray(canvas_result.image_data.astype('uint8'), 'RGBA').convert("RGB")
+                
+                with st.spinner("Tutor is reviewing your steps..."):
+                    feedback = get_ai_feedback(img,q['text'])
+                    st.markdown("### Tutor Feedback")
+                    st.markdown(feedback) # Using markdown to support LaTeX rendering
+            else:
+                st.warning("Please write your solution first!")
+        st.divider()
