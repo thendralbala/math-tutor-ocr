@@ -14,5 +14,5 @@ jobs:
       - name: Push to hub
         env: 
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force  https://thendralbala:$HF_TOKEN@huggingface.co/spaces/thendralbala/math-tutor-ocr main
+        run: git push --force  https://thendralbala:$HF_TOKEN@huggingface.co/spaces/thendralbala/lcert-math-tutor main
         
