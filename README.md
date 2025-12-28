@@ -1,14 +1,3 @@
----
-title: Leaving Cert Math Tutor
-emoji: 📝
-colorFrom: blue
-colorTo: green
-sdk: streamlit
-sdk_version: "1.31.0"
-app_file: app.py
-pinned: false
----
-
 # 📝 Leaving Cert Math Tutor
 
 An educational platform designed to help Irish secondary students master Leaving Certificate Mathematics. Using Generative AI, the platform provides personalized, Socratic feedback on handwritten or digital solutions to exam-style questions.
