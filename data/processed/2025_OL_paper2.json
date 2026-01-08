@@ -1,0 +1,349 @@
+{
+    "title": "2025 Paper 2",
+    "year": 2025,
+    "questions": [
+        {
+            "id": "q1",
+            "topic": "Statistics",
+            "text": "(a) The table below shows the total monthly rainfall for Athenry for 2023. Each value is rounded to the nearest mm. \n\n| Month | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sept | Oct | Nov | Dec |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Total rainfall (mm) | 114 | 42 | 186 | 93 | 64 | 94 | 224 | 129 | 148 | 180 | 114 | 203 |\n\n(i) The total rainfall in Athenry for June 2023 was 94 mm. The total rainfall in Athenry for June 2024 was 72 mm. Find the percentage decrease in rainfall from June 2023 to June 2024. Give your answer correct to 1 decimal place.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q1a_ii",
+            "topic": "Statistics",
+            "text": "(ii) Work out the mean and the standard deviation of the total monthly rainfall for Athenry from the table above. Give both answers correct to the nearest whole number.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q1b",
+            "topic": "Statistics",
+            "text": "(b) The table below shows the same monthly rainfall values and is ranked from the lowest to the highest. \n\n| Total rainfall (mm) |\n| --- |\n| 42 |\n| 64 |\n| 93 |\n| 94 |\n| 114 |\n| 114 |\n| 129 |\n| 148 |\n| 180 |\n| 186 |\n| 203 |\n| 224 |\n\nThe upper quartile $(Q_{3})$ of the data above is $183\\mathrm{mm}$. Find the value of the lower quartile $(Q_{1})$ and hence, work out the interquartile range of the total monthly rainfall for Athenry for 2023.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q2a_i",
+            "topic": "Geometry",
+            "text": "(a) There are two angles, $A$ and $2A$, in a right-angled triangle as shown in the diagram below. \n\n(i) Show that the size of the angle $A$ is $30^{\\circ}$.",
+            "image_id": "img-10.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-10.jpeg.png"
+        },
+        {
+            "id": "q2a_ii",
+            "topic": "Trigonometry",
+            "text": "(ii) The lengths of two of the sides are $x$ and $10\\mathrm{cm}$, as shown in the diagram above. Using $A = 30^{\\circ}$, find the value of $x$, correct to 2 decimal places.",
+            "image_id": "img-10.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-10.jpeg.png"
+        },
+        {
+            "id": "q2b",
+            "topic": "Trigonometry",
+            "text": "(b) The triangle $PQR$ is shown below. Some of its measurements are also shown. Work out the distance from $P$ to $R$. Give your answer in cm, correct to 1 decimal place.",
+            "image_id": "img-10.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-10.jpeg.png"
+        },
+        {
+            "id": "q3a",
+            "topic": "Coordinate Geometry",
+            "text": "(a) The diagram below shows three circles, labelled $p, q$, and $r$. Write each of the letters $p$, $q$, and $r$ in the correct place in the table so that each circle matches its equation. \n\n| p, q, or r | Equation of circle |\n| --- | --- |\n| | $x^2 + y^2 = 9$ |\n| | $(x - 6)^2 + (y - 2)^2 = 4$ |\n| | $x^2 + y^2 = 1$ |",
+            "image_id": "img-12.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-12.jpeg.png"
+        },
+        {
+            "id": "q3b",
+            "topic": "Coordinate Geometry",
+            "text": "(b) The circle $c$ has centre $(3, -4)$ and radius 7. Write down the equation of $c$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q3c_i",
+            "topic": "Coordinate Geometry",
+            "text": "(c) The circle $k$ has centre $(-1,3)$. The point $(2,7)$ is on the circle $k$, as shown in the diagram below. \n\n(i) Find the radius of the circle $k$.",
+            "image_id": "img-15.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-15.jpeg.png"
+        },
+        {
+            "id": "q3c_ii",
+            "topic": "Coordinate Geometry",
+            "text": "(ii) Hence, or otherwise, write down the co-ordinates of two points that are on the circle $k$, other than (2, 7). Give your answers in the form $(a,b)$ where $a,b \\in \\mathbb{Z}$.",
+            "image_id": "img-15.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-15.jpeg.png"
+        },
+        {
+            "id": "q4a_i",
+            "topic": "Coordinate Geometry",
+            "text": "(a) $A(-5,3)$ and $B(2,0)$ are two points on the co-ordinate plane, as shown in the diagram below. \n\n(i) Find the slope of the line $AB$.",
+            "image_id": "img-18.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-18.jpeg.png"
+        },
+        {
+            "id": "q4a_ii",
+            "topic": "Coordinate Geometry",
+            "text": "(ii) Hence, work out the equation of the line $AB$. Give your answer in the form $ax + by + c = 0$, where $a, b, c \\in \\mathbb{Z}$.",
+            "image_id": "img-18.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-18.jpeg.png"
+        },
+        {
+            "id": "q4a_iii",
+            "topic": "Coordinate Geometry",
+            "text": "(iii) $C(4,3)$ is a third point on the co-ordinate plane. Work out the area of the triangle $ABC$. Hint: the point $C$ is plotted on the diagram on the previous page.",
+            "image_id": "img-18.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-18.jpeg.png"
+        },
+        {
+            "id": "q4b",
+            "topic": "Coordinate Geometry",
+            "text": "(b) The lines $l$ and $k$ have the following equations: \n\n$$l: \\quad y = \\frac{2}{3} x - 5$$\n\n$$k: \\quad 2 x + 3 y - 7 = 0$$\n\nInvestigate if the lines $l$ and $k$ are parallel, perpendicular, or neither. Show working out to support your answer.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q5a",
+            "topic": "Geometry",
+            "text": "(a) $j$ and $k$ are two parallel lines, as shown in the diagram below. The size of some angles are also shown. Find the size of the angles $A, B$, and $C$.",
+            "image_id": "img-22.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-22.jpeg.png"
+        },
+        {
+            "id": "q5b_i",
+            "topic": "Geometry",
+            "text": "(b) The diagram below shows the isosceles triangle $ABC$, where $|AB| = |AC|$. $D$ is the midpoint of $[BC]$. $AD$ is perpendicular to $BC$. $|AB| = 9$ cm and $|BD| = 5$ cm. \n\n(i) Use the theorem of Pythagoras to work out the distance from $A$ to $D$, that is, find $|AD|$. Give your answer correct to 1 decimal place.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q5b_ii",
+            "topic": "Geometry",
+            "text": "(ii) Show that the triangles $ABD$ and $ACD$ are congruent. Give a reason for any statement you make.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q6a_i",
+            "topic": "Statistics",
+            "text": "(a) The marks in an exam were normally distributed, as shown in the diagram below. The mean mark was 62 and the standard deviation was 14. Use the empirical rule to answer parts (a)(i), (ii) and (iii). \n\n(i) Use the mean and standard deviation to fill in the missing numbers along the horizontal axis on the diagram below.",
+            "image_id": "img-27.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-27.jpeg.png"
+        },
+        {
+            "id": "q6a_ii",
+            "topic": "Statistics",
+            "text": "(ii) A student is chosen at random. Find the probability that this student had a mark between 34 and 90.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q6a_iii",
+            "topic": "Statistics",
+            "text": "(iii) 150 students sat the exam. Estimate the number of students who got marks between 48 and 76 in the exam.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q6b",
+            "topic": "Statistics",
+            "text": "(b) Eoin writes down 5 positive whole numbers, from smallest to largest. For these 5 numbers: \n- the median is 9 \n- the mode is 6 \n- the range is 11 \n- the mean is 10. \n\nFind the 5 numbers that Eoin writes down.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q7a",
+            "topic": "Probability",
+            "text": "(a) Se\u00e1n is playing two tennis matches. He either wins or loses each match. The probability that he wins the first match is 0\u00b76 and the probability that he wins the second match is 0\u00b77. The outcomes of the two matches are independent. \n\nUse this information above to complete the tree diagram below, by: \n(i) writing the probability associated with each branch of the tree diagram into the appropriate box and \n(ii) working out the probability for each outcome and writing it in the appropriate box in the final column.",
+            "image_id": "img-31.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-31.jpeg.png"
+        },
+        {
+            "id": "q7a_iii",
+            "topic": "Probability",
+            "text": "(iii) Based on the tree diagram, what is the probability that Se\u00e1n wins at least 1 match?",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q7b_i",
+            "topic": "Probability",
+            "text": "(b) Sarah also plays tennis. Each time that Sarah plays a service game, the probability that she wins is 0\u00b778. Assume that winning each service game is independent. \n\n(i) What is the probability that Sarah will lose her next service game (that is, that she won't win her next service game)?",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q7b_ii",
+            "topic": "Probability",
+            "text": "(ii) What is the probability that the first service game that Sarah loses is her third service game? Give your answer correct to 3 decimal places.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q7c_i",
+            "topic": "Geometry",
+            "text": "(c) (i) A child's football is in the shape of a sphere and has a diameter of 18 cm. Find the volume of this ball. Give your answer, in $\\mathsf{cm}^3$, in terms of $\\pi$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q7c_ii",
+            "topic": "Geometry",
+            "text": "(ii) An adult's football is in the shape of a sphere and has a volume of $5424 \\cdot 6 \\, \\text{cm}^3$. Work out the radius of the adult's football. Give your answer correct to 1 decimal place.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q7d",
+            "topic": "Statistics",
+            "text": "(d) The Expected Goals (xG) is a method used to measure the probability that a particular type of shot will result in a goal. During a game, a team had 15 shots on goal. The statistician gave each shot a probability of resulting in a goal, as shown in the table below. \n\n| Probability of resulting in a goal | 10% | 20% | 40% | 70% |\n| --- | --- | --- | --- | --- |\n| Number of shots | 6 | 5 | 3 | 1 |\n\nUse the information in the table to work out the Expected Goals of the team in this game, that is, the expected value of the number of goals that would be scored from these 15 shots.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q8a_i",
+            "topic": "Statistics",
+            "text": "(a) The table below shows the number of new private cars sold in 2023 (to the nearest hundred) broken down by fuel type. It also shows the percentage of these cars that were of each fuel type (correct to 2 decimal places) and the size of the angle that would represent each fuel type in a pie chart. \n\n| Fuel type | Number of new cars | Percentage of new cars | Angle in pie chart |\n| --- | --- | --- | --- |\n| Petrol | 38 700 | 32\u00b796% | 119\u00b0 |\n| Diesel | 25 900 |  |  |\n| Fully Electric | 22 500 | 19\u00b717% |  |\n| Hybrid | 30 300 |  | 93\u00b0 |\n| Total | 117 400 | 100% | 360\u00b0 |\n\n(i) Complete the table above by working out the two missing percentages for Diesel and for Hybrid and the size of the two missing angles for Diesel and Fully Electric. Give each percentage correct to 2 decimal places and give the size of each angle correct to the nearest degree.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q8a_ii",
+            "topic": "Statistics",
+            "text": "(ii) Use the information from the table on the previous page to complete the pie chart for Diesel, Fully Electric and Hybrid. Label each sector clearly with the fuel type.",
+            "image_id": "img-40.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-40.jpeg.png"
+        },
+        {
+            "id": "q8b_i",
+            "topic": "Statistics",
+            "text": "(b) The scatter plot below shows the fuel efficiency of ten popular petrol car types and their engine sizes. \n\n(i) There is a correlation between engine size and fuel efficiency. Based on the diagram above, pick a description from the list below that best describes the correlation between engine size and fuel efficiency. Explain your choice in relation to fuel efficiency and engine size. \n\nThe correlation is: \n\n(Tick (\u2713) one box only) \n- Strong positive \n- Strong negative \n- Weak positive \n- Weak negative \n\nExplanation:",
+            "image_id": "img-42.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-42.jpeg.png"
+        },
+        {
+            "id": "q8b_ii",
+            "topic": "Statistics",
+            "text": "(ii) Tom says that the correlation coefficient for two sets of data is 5. Explain why this cannot be correct.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q8c_i",
+            "topic": "Statistics",
+            "text": "(c) A random sample of 815 cars was picked from new cars in 2024. \n\n(i) Show that, for this sample, the margin of error for a population proportion is 3\u00b75%, correct to 1 decimal place.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q8c_ii",
+            "topic": "Statistics",
+            "text": "(ii) 106 of the 815 new cars bought in 2024 were electric cars. Work out the percentage of new cars in this sample that were electric cars. Give your answer correct to the nearest percent.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q8c_iii",
+            "topic": "Statistics",
+            "text": "(iii) In 2023, 19\u00b72% of all new cars bought were electric. A reporter claimed that the proportion of new electric cars being bought in 2024 was different to 2023. Use your answers to parts (c)(i) and (c)(ii) to test the claim that the percentage of new electric cars being bought in 2024 is different from that in 2023, at the 5% level of significance. Show relevant calculations, state your conclusion, and give a reason for your conclusion.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q9a_i",
+            "topic": "Geometry",
+            "text": "(a) Clodagh is making a wooden table for her woodwork class. The triangle $ABC$ below is a scaled diagram of the table-top. The table-top is supported by one leg attached to the centroid, as shown in the diagram on the right. \n\n(i) On the diagram below, construct the midpoint of the side $[AB]$. Label this point $D$. (If using measurements and calculations, show all calculations clearly).",
+            "image_id": "img-46.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-46.jpeg.png"
+        },
+        {
+            "id": "q9a_ii",
+            "topic": "Geometry",
+            "text": "(ii) Hence, construct the centroid of the triangle $ABC$. Label this point $O$.",
+            "image_id": "img-47.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-47.jpeg.png"
+        },
+        {
+            "id": "q9b_i",
+            "topic": "Geometry",
+            "text": "(b) Finn is making a pair of triangular tables, one bigger than the other. The bigger table-top is an enlargement of the smaller table-top. The scale factor of the enlargement is $k$. \n\n(i) The longest side of the bigger table-top is $45\\mathrm{cm}$. The longest side of the smaller table-top is $36\\mathrm{cm}$. Show the scale factor $k = 1 \\cdot 25$.",
+            "image_id": "img-48.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-48.jpeg.png"
+        },
+        {
+            "id": "q9b_ii",
+            "topic": "Geometry",
+            "text": "(ii) The shortest side of the smaller table-top is $25 \\cdot 5 \\, \\text{cm}$. Work out the length of the shortest side of the bigger table-top, correct to 1 decimal place.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q9b_iii",
+            "topic": "Geometry",
+            "text": "(iii) The area of the bigger table-top is $724\\mathrm{cm}^2$. Use $k = 1 \\cdot 25$ to find the area of the smaller table-top. Give your answer correct to the nearest $\\mathrm{cm}^2$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q9c_i",
+            "topic": "Geometry",
+            "text": "(c) A table used for a cookery demonstration is in the shape of a sector of a circle with a radius of $160\\mathrm{cm}$. The table has a Teacher Section, a Demonstration Section, and a Work Section for the participants as shown in the diagram below. \n\n(i) The shaded area is the Work Section. It has a width of $40\\mathrm{cm}$. Work out the area of the Work Section. Give your answer correct to the nearest $\\mathrm{cm}^2$.",
+            "image_id": "img-52.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-52.jpeg.png"
+        },
+        {
+            "id": "q9c_ii",
+            "topic": "Geometry",
+            "text": "(ii) Each participant attending the demonstration needs at least 60 cm along the outer circumference of the Work Section of the table to carry out the food preparation. Find the maximum number of participants who can attend the demonstration.",
+            "image_id": "img-52.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-52.jpeg.png"
+        },
+        {
+            "id": "q10a_i",
+            "topic": "Geometry",
+            "text": "(a) $ABCDEF$ is a six-sided shape where: \n$AF$ is parallel to $CD$ and $AF$ is perpendicular to $AC$. \n$|AB| = |CD| = |EF| = |FA| = 200 \\, \\text{m}$, and $|BC| = |DE| = 150 \\, \\text{m}$. \n\n(i) Aoibhe swims from $A$ to $B$, to $C$, to $D$, to $E$, to $F$, and back to $A$. Find the total distance Aoibhe swims.",
+            "image_id": "img-55.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-55.jpeg.png"
+        },
+        {
+            "id": "q10a_ii",
+            "topic": "Trigonometry",
+            "text": "(ii) The size of the angle $ABC$ is $110^{\\circ}$. Work out the area, correct to the nearest $m^2$, of the triangle $ABC$, that is, the area of the shaded region in the diagram above.",
+            "image_id": "img-55.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-55.jpeg.png"
+        },
+        {
+            "id": "q10a_iii",
+            "topic": "Trigonometry",
+            "text": "(iii) Aoibhe swims straight from $A$ to $C$. Use the cosine rule to work out the distance from $A$ to $C$. Give your answer correct to the nearest metre.",
+            "image_id": "img-55.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-55.jpeg.png"
+        },
+        {
+            "id": "q10a_iv",
+            "topic": "Geometry",
+            "text": "(iv) Hence, or otherwise, work out the total area of the water enclosed by the six markers.",
+            "image_id": "img-55.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-55.jpeg.png"
+        },
+        {
+            "id": "q10b_i",
+            "topic": "Combinatorics",
+            "text": "(b) Point $A$ is the nearest point to the shore and is the start and end point for all swims. Aoibhe wants to see how many routes she could swim, starting at $A$, by swimming to each of the five markers $(B, C, D, E, \\text{and } F)$ once and only once and finishing at $A$. \n\nFor Example, Aoibhe could swim the route: \n| A | E | C | F | D | B | A |\n\n(i) Give another example of such a route Aoibhe could swim.",
+            "image_id": "img-60.jpeg",
+            "image_url": "data/images/2025_OL_paper2_img-60.jpeg.png"
+        },
+        {
+            "id": "q10b_ii",
+            "topic": "Combinatorics",
+            "text": "(ii) Work out how many such routes are possible.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q10b_iii",
+            "topic": "Combinatorics",
+            "text": "(iii) On a particular day Aoibhe wants to start at $A$, swim to two markers other than $A$, and then return to $A$. For example, Aoibhe could swim the route: \n| A | E | B | A |\n\nWork out how many such routes are possible.",
+            "image_id": null,
+            "image_url": null
+        }
+    ]
+}
