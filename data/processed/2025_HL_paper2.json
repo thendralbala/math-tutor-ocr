@@ -1,0 +1,342 @@
+{
+    "title": "2025 Paper 2",
+    "year": 2025,
+    "questions": [
+        {
+            "id": "q1",
+            "topic": "Algebra",
+            "text": "(a) $p \\in \\mathbb{R}$ is a constant. The point $(p, 5)$ lies on the line $3x - 2y + 28 = 0$. Find the value of $p$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q1",
+            "topic": "Coordinate Geometry",
+            "text": "(b) The line $l$ has equation $y = -\\frac{1}{3} x + 11$. The line $h$ has equation $2x - 5y + 10 = 0$. Work out the size of the acute angle between the lines $l$ and $h$. Give your answer correct to the nearest degree.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q1",
+            "topic": "Coordinate Geometry",
+            "text": "(c) A line cuts the $x$-axis at the point $A(a,0)$ and the $y$-axis at $B(0,b)$, where $a,b \\in \\mathbb{Z}$. The slope of this line is $-\\frac{2}{3}$. The area of the triangle enclosed by this line, the $x$-axis, and the $y$-axis is 12 square units. There are two different lines that satisfy these conditions. Find the equation of each of these lines. It may be useful to draw a diagram.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q2",
+            "topic": "Coordinate Geometry",
+            "text": "(a) A circle $s$ has the equation $(x - 4)^2 + (y + 2)^2 = 45$. (i) Write down the centre and radius of the circle $s$.",
+            "image_id": "img-7.jpeg",
+            "image_url": "data/images/2025_HL_paper2_img-7.jpeg.png"
+        },
+        {
+            "id": "q2",
+            "topic": "Coordinate Geometry",
+            "text": "(ii) Find the equation of the tangent to $s$ at the point $(-2, -5)$. Write your answer in the form $y = mx + c$, where $m, c \\in \\mathbb{Z}$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q2",
+            "topic": "Coordinate Geometry",
+            "text": "(b) The circle $t$ has the following equation, where $k \\in \\mathbb{R}$ is a constant: $x^{2} + y^{2} + 28x - 46y + k = 0$. The horizontal line $y = k$ is a tangent to the circle $t$. Find the two possible values of $k$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q3",
+            "topic": "Probability",
+            "text": "(a) 240 people were surveyed about which of three countries, $A$, $B$, or $C$, they had been to. The Venn diagram below shows the number of people who had been to each combination of these countries, as well as those who had been to none of the three. (i) Show that $P(A) = \\frac{1}{4}$.",
+            "image_id": "img-10.jpeg",
+            "image_url": "data/images/2025_HL_paper2_img-10.jpeg.png"
+        },
+        {
+            "id": "q3",
+            "topic": "Probability",
+            "text": "(ii) Verify that, for the values in this diagram: $P(A \\cup C) = P(A) + P(C) - P(A \\cap C)$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q3",
+            "topic": "Probability",
+            "text": "(iii) Are $A$ and $B$ independent events? Use calculations to justify your answer.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q3",
+            "topic": "Probability",
+            "text": "(b) Two of the 240 people are picked at random. Find the probability that one of them had been to all three countries, and the other had been to none of the three countries. Give your answer as a fraction in its simplest form.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q4",
+            "topic": "Statistics",
+            "text": "(a) The ages of twelve people in a class are given below. They are in ascending order, and $x \\in \\mathbb{N}$. 11, 12, 12, 14, 15, x, 18, 18, 19, 22, 25, 30. (i) The median age is 17.5. Find the value of $x$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q4",
+            "topic": "Statistics",
+            "text": "(ii) The first quartile $(Q_{1})$ is 13. Work out the interquartile range of the ages.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q4",
+            "topic": "Statistics",
+            "text": "(b) Michael finds the mean and the median of a list of 10 numbers. He then changes the biggest number in the list to make it even bigger. Will this change the mean, the median, or both? Justify your answer fully.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q4",
+            "topic": "Statistics",
+            "text": "(c) The frequency table below shows the ages of the people in another class, where $k \\in \\mathbb{N}$. Using mid-interval values, the mean age of the people in the class is 40.4 years. Use this to work out the value of $k$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q5",
+            "topic": "Geometry",
+            "text": "(a) The diagram shows two triangles, $ACD$ and $BCE$. $C$ is the midpoint of $[AB]$. $AD$ is parallel to $EB$, and the point $C$ lies on $DE$. Prove that the triangles $ACD$ and $BCE$ are congruent. Give a reason for each statement that you make in your proof.",
+            "image_id": "img-17.jpeg",
+            "image_url": "data/images/2025_HL_paper2_img-17.jpeg.png"
+        },
+        {
+            "id": "q5",
+            "topic": "Geometry",
+            "text": "(b) The parallelogram $PQRS$ is shown on the right. The point $X$ lies on the line $PQ$, as shown. $P'Q'R'S'$ is an enlargement of $PQRS$, using point $X$ as the centre of enlargement. (i) $|XQ| = 8$ cm and $|QQ'| = 4$ cm. Show that the scale factor of the enlargement, $k$, is 1.5.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q5",
+            "topic": "Geometry",
+            "text": "(ii) $PQRS$ and $P'Q'R'S'$ are shown again in the diagram on the right. $Y$ is the point where the lines $SR$ and $P'S'$ intersect. The region $P'QRY$ is shaded. $|XP| = 3$ cm. The area of $PQRS$ is $20 \\mathrm{cm}^2$. Use this to find the area of the shaded region $P'QRY$, in $\\mathrm{cm}^2$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q6",
+            "topic": "Trigonometry",
+            "text": "(a) Find all six solutions to the following equation in $A$, where $-360^\\circ \\leq A \\leq 720^\\circ$: $\\sin A = \\frac{1}{2}$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q6",
+            "topic": "Trigonometry",
+            "text": "(b) $f(x)$ is the following function, where $x \\in \\mathbb{R}$ is in radians: $f(x) = |4 \\sin x| - 1$. Part of the graph of $y = f(x)$ is shown below. Write down the period and range of $f(x)$.",
+            "image_id": "img-24.jpeg",
+            "image_url": "data/images/2025_HL_paper2_img-24.jpeg.png"
+        },
+        {
+            "id": "q6",
+            "topic": "Trigonometry",
+            "text": "(c) In the triangle $ABC$, $|AC| = 2$, $|BC| = 3$, and $|AB| = 4$. Use the Cosine Rule to find the value of $\\tan \\angle CBA$, without using a calculator. Give your answer in the form $\\frac{\\sqrt{n}}{m}$, where $n, m \\in \\mathbb{Z}$. Show all your working out.",
+            "image_id": "img-26.jpeg",
+            "image_url": "data/images/2025_HL_paper2_img-26.jpeg.png"
+        },
+        {
+            "id": "q7",
+            "topic": "Geometry and Trigonometry",
+            "text": "(a) Below is a scaled diagram of a submarine. The body of the submarine is roughly in the shape of a cylinder, with a cone at one end and a hemisphere at the other end, as shown. (i) Measure the lengths labelled $r$, $d$, and $h$ on the diagram above. Write the length of each, correct to the nearest cm, in the table below.",
+            "image_id": "img-28.jpeg",
+            "image_url": "data/images/2025_HL_paper2_img-28.jpeg.png"
+        },
+        {
+            "id": "q7",
+            "topic": "Geometry and Trigonometry",
+            "text": "(ii) Use the measurements from part (a)(i) to work out the actual lengths represented by $r$, $d$, and $h$. The actual total length of the submarine shown in the scaled diagram above is $90\\mathrm{m}$. Give each value in metres, correct to 1 decimal place.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q7",
+            "topic": "Geometry and Trigonometry",
+            "text": "(b) The diagram below shows the body of a different submarine with a similar design. The dimensions of this submarine are all given in terms of $x$, where $x \\in \\mathbb{R}$. The hemisphere, cylinder, and cone all have a radius of $x$. This submarine has a volume of $6738\\mathrm{m}^3$, correct to the nearest $\\mathrm{m}^3$. By solving an equation in $x$, find the total length of this submarine. Give your answer in metres, correct to 1 decimal place.",
+            "image_id": "img-30.jpeg",
+            "image_url": "data/images/2025_HL_paper2_img-30.jpeg.png"
+        },
+        {
+            "id": "q7",
+            "topic": "Coordinate Geometry",
+            "text": "(c) A submarine is within $\\sqrt{58}$ km of a point $A$ and is within $\\sqrt{178}$ km of a point $B$. The distance from $A$ to $B$ is $20\\mathrm{km}$. $A, B$, and the submarine are all at the same depth. This is represented on the co-ordinate diagram below. The points $A(0,0)$ and $B(20,0)$ are shown. Part of the circles $k$ and $s$ are shown, where $k$ has centre $A(0,0)$ and radius $\\sqrt{58}$, and $s$ has centre $B(20,0)$ and radius $\\sqrt{178}$. The circles intersect at the points $C$ and $D$. The submarine is in the shaded region, $R$, the region that is inside both circles $k$ and $s$. (i) Write down the equation of the circle $s$.",
+            "image_id": "img-32.jpeg",
+            "image_url": "data/images/2025_HL_paper2_img-32.jpeg.png"
+        },
+        {
+            "id": "q7",
+            "topic": "Coordinate Geometry",
+            "text": "(ii) By using your answer to part (c)(i), or otherwise, verify that (7, 3) lies on the circle $s$. The point $C$ is (7, 3) and the point $A$ is (7, -3).",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q7",
+            "topic": "Coordinate Geometry",
+            "text": "(iii) By using $C(7,3)$ and $D(7, -3)$, find the area of the triangle $DBC$, in $\\mathrm{km}^2$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q7",
+            "topic": "Trigonometry",
+            "text": "(iv) Find the size of the acute angle $\\angle CBD$, correct to the nearest degree.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q7",
+            "topic": "Geometry",
+            "text": "(v) The area of the sector $ADC$ of the circle $k$ is $23.4837 \\, \\text{km}^2$, correct to 4 decimal places. The area of the triangle $ADC$ is $21 \\, \\text{km}^2$. Using this, work out the area of the shaded region, $R$, that is inside both circles. Give your answer in $\\mathrm{km}^2$, correct to 2 decimal places.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q8",
+            "topic": "Geometry",
+            "text": "(a) A roof is in the shape of a square-based pyramid, as shown. The square base, $ABCD$, has sides of length $6\\mathrm{m}$. The diagonals of $ABCD$ meet at the point $O$. The top of the pyramid, $P$, is directly above $O$. The four triangular faces are congruent to each other, with $|AP| = |BP| = 11$ m. (i) Use the theorem of Pythagoras to show that $|OB| = 3\\sqrt{2} \\, \\text{m}$, and hence find the value of $|OP|$, the vertical height of the pyramid. Give $|OP|$ in surd form.",
+            "image_id": "img-38.jpeg",
+            "image_url": "data/images/2025_HL_paper2_img-38.jpeg.png"
+        },
+        {
+            "id": "q8",
+            "topic": "Trigonometry",
+            "text": "(ii) On the triangular face $PAB$, the size of $\\angle PAB$ is $74.2^\\circ$, correct to 1 decimal place. Using this, or otherwise, work out the total area of the four triangular faces of the roof. Give your answer correct to the nearest $\\mathrm{m}^2$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q8",
+            "topic": "Geometry",
+            "text": "(iii) The diagram below shows part of a scaled diagram of the net of this pyramid. The diagram shows the square base and two of the triangular sides. Construct the rest of the scaled diagram of the net of the pyramid. Show all construction lines clearly.",
+            "image_id": "img-41.jpeg",
+            "image_url": "data/images/2025_HL_paper2_img-41.jpeg.png"
+        },
+        {
+            "id": "q8",
+            "topic": "Trigonometry",
+            "text": "(b) In the diagram on the right, $[BC]$ represents a flagpole. $|AB| = 15\\mathrm{m}$ and $|BC| = 17.5\\mathrm{m}$, as shown. $AB$ is perpendicular to $BC$. Ally measures the size of $\\angle CAB$, the angle of elevation of the flagpole. She makes a mistake, and measures that $|\\angle CAB|$ is $52^\\circ$, which is not correct. Work out the percentage error in Ally's value for $|\\angle CAB|$. Give your answer correct to 1 decimal place.",
+            "image_id": "img-42.jpeg",
+            "image_url": "data/images/2025_HL_paper2_img-42.jpeg.png"
+        },
+        {
+            "id": "q8",
+            "topic": "Trigonometry",
+            "text": "(c) Ally is also working out the height of a round tower. She measures the angle of elevation to the top of the tower. She then moves $10\\mathrm{m}$ away from the tower, on horizontal ground, and measures the angle of elevation of the top of the tower again. She measures both of these angles of elevation from a height of $1.25\\mathrm{m}$. She draws the diagram below to show her measurements. Two lengths, $x$ and $h$, are shown in the diagram. (i) Use the Sine rule to show that $x = 25.5 \\, \\text{m}$, correct to 1 decimal place.",
+            "image_id": "img-44.jpeg",
+            "image_url": "data/images/2025_HL_paper2_img-44.jpeg.png"
+        },
+        {
+            "id": "q8",
+            "topic": "Trigonometry",
+            "text": "(ii) Hence, find the total height of the tower, marked $h$ in the diagram on the previous page. Give your answer in metres, correct to 1 decimal place.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q9",
+            "topic": "Probability",
+            "text": "(a) Assume that 6.7% of people in Ireland have diabetes. For a particular test for diabetes, each person tests either positive or negative. The probability that someone who has diabetes gets a correct positive result is 99%. However, the probability that someone who does not have diabetes gets an incorrect positive result is 7.8%. One person is picked at random from the people in Ireland, and is tested for diabetes using this test. (i) Write the proportion associated with each branch of the tree diagram into the appropriate box and (ii) work out the probability for each outcome and write it in the appropriate box in the final column.",
+            "image_id": "img-47.jpeg",
+            "image_url": "data/images/2025_HL_paper2_img-47.jpeg.png"
+        },
+        {
+            "id": "q9",
+            "topic": "Probability",
+            "text": "(iii) Find the probability that the person picked at random tests positive for diabetes.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q9",
+            "topic": "Probability",
+            "text": "(iv) The person picked at random tests positive for diabetes, using this test. Find the probability that they actually have diabetes.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q9",
+            "topic": "Probability",
+            "text": "(b) 5 people are picked at random from the people in Ireland. Assuming that 6.7% of people in Ireland have diabetes, work out the probability that 2 or more of these 5 people have diabetes.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q9",
+            "topic": "Combinatorics",
+            "text": "(c) 20 people take part in a clinical trial. (i) 10 of them will be picked to be in group A. The remaining 10 people will be in group B. How many different combinations of 10 people can be picked to be in group A?",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q9",
+            "topic": "Combinatorics",
+            "text": "(ii) Each person in group A is now paired with a person in group B, making 10 pairs. How many different sets of 10 pairs can be made?",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q9",
+            "topic": "Combinatorics",
+            "text": "(d) In a different clinical trial, 24 people are split into two groups, X and Y. 8 people are in group X and 16 people are in group Y. Each person in group X is paired with two people in group Y, so that everyone in group Y is in exactly one of these pairings. How many different sets of such pairings can be made? Give your answer in the form $a \\times 10^n$ where $1 \\leq a < 10$, $n \\in \\mathbb{N}$, and $a$ is correct to 3 decimal places.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q10",
+            "topic": "Statistics",
+            "text": "(a) Worldwide, scores on this test are normally distributed with a mean score of 400 and a standard deviation of 60. (i) The scaled diagram below shows the distribution of scores on this test. Use the empirical rule to fill in the four missing values in the diagram.",
+            "image_id": "img-55.jpeg",
+            "image_url": "data/images/2025_HL_paper2_img-55.jpeg.png"
+        },
+        {
+            "id": "q10",
+            "topic": "Statistics",
+            "text": "(ii) Use the normal distribution to work out the proportion of students worldwide who would score above 420 on the test. Give your answer correct to 2 decimal places.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q10",
+            "topic": "Statistics",
+            "text": "(b) Using values from the table, construct a 95% confidence interval for the population mean score of country X. Give each value correct to 1 decimal place.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q10",
+            "topic": "Statistics",
+            "text": "(c) For country Y, researchers carried out a hypothesis test at the 5% level of significance to see if the population mean score of the country was different to 400 (the worldwide mean). The null hypothesis was that the mean score for country Y was 400. The alternative hypothesis was that it was not 400. (i) Using values from the table, work out the test statistic (z-score) of the sample mean for country Y for this test. Give your answer correct to 2 decimal places.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q10",
+            "topic": "Statistics",
+            "text": "(ii) Hence, work out the $p$-value of this test statistic and state the conclusion of the hypothesis test in the given context, making reference to the mean score for country Y.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q10",
+            "topic": "Statistics",
+            "text": "(d) In country Z, 50% of all students have a pet in their home and 50% do not. Describe how the sample of 2520 students from country Z could be taken as a stratified random sample with respect to having a pet in the home, and explain why it is probably not useful to do this when looking at these students' maths scores.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q10",
+            "topic": "Statistics",
+            "text": "(e) For one of the questions on the test, students are given a mark of 0, 1, 2, or 3. The proportion of students who get each mark is shown in the table below. Here, $p, r \\in \\mathbb{R}$ and $p, r \\geq 0$. Find the largest value that the expected value of their mark could be.",
+            "image_id": null,
+            "image_url": null
+        }
+    ]
+}
