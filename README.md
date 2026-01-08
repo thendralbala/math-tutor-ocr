@@ -4,7 +4,7 @@ emoji: 📐
 colorFrom: blue
 colorTo: green
 sdk: streamlit
-sdk_version: 0.5.0
+sdk_version: 0.0.5
 app_file: app.py
 pinned: false
 ---
@@ -38,7 +38,3 @@ The Leaving Cert Math Tutor bridge the gap between static practice and private t
    ```bash
    git clone [https://github.com/thendralbala/lcert-math-tutor.git](https://github.com/thendralbala/lcert-math-tutor.git)
    cd lcert-math-tutor
-
-## Prototype
-
-Access the prototype application at: [https://huggingface.co/spaces/thendralbala/lcert-math-tutor](https://huggingface.co/spaces/thendralbala/lcert-math-tutor)
