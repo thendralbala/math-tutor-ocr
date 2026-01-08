@@ -1,3 +1,14 @@
+---
+title: Leaving Cert Math Tutor
+emoji: 📐
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+sdk_version: 1.52.2
+app_file: app.py
+pinned: false
+---
+
 # 📝 Leaving Cert Math Tutor
 
 An educational platform designed to help Irish secondary students master Leaving Certificate Mathematics. Using Generative AI, the platform provides personalized, Socratic feedback on handwritten or digital solutions to exam-style questions.
@@ -27,7 +38,3 @@ The Leaving Cert Math Tutor bridge the gap between static practice and private t
    ```bash
    git clone [https://github.com/thendralbala/lcert-math-tutor.git](https://github.com/thendralbala/lcert-math-tutor.git)
    cd lcert-math-tutor
-
-## Prototype
-
-Access the prototype application at: [https://huggingface.co/spaces/thendralbala/lcert-math-tutor](https://huggingface.co/spaces/thendralbala/lcert-math-tutor)
