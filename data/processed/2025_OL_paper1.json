@@ -1,0 +1,398 @@
+{
+    "title": "2025 Paper 1",
+    "year": 2025,
+    "questions": [
+        {
+            "id": "q1a_i",
+            "topic": "Percentage",
+            "text": "Se\u00e1n is buying a power bank and a USB-C cable. One power bank costs \u20ac30 before VAT at 23% has been added. Find the cost of the power bank after VAT has been added.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q1a_ii",
+            "topic": "Percentage",
+            "text": "Se\u00e1n is going to buy a different power bank that costs \u20ac26, and a USB-C cable that costs \u20ac9. Se\u00e1n sees a special offer to buy the power bank and USB-C cable together for \u20ac28. Work out the percentage discount of this special offer.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q1b_i",
+            "topic": "Number Theory",
+            "text": "M\u00e1ir\u00e9d can clean a standard window in 9 minutes. Diarmuid can clean a standard window in 12 minutes. M\u00e1ir\u00e9d and Diarmuid both start cleaning standard windows at the same time. They both finish cleaning a window at the same time. After how many minutes will this first happen?",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q1b_ii",
+            "topic": "Work Rate",
+            "text": "A building has 35 standard windows. Work out how long it would take M\u00e1ir\u00e9d and Diarmuid to clean the 35 windows if they work together.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q2a_i",
+            "topic": "Complex Numbers",
+            "text": "$z_{1}, z_{2}$ and $z_{3}$ are three complex numbers. $z_{1} = -1 + 2i$, $z_{2} = 2 + 3i$, $z_{3} = 4 - i$. The complex number $z_{1}$ is shown on the Argand diagram. Plot and label $z_{2}$ and $z_{3}$ on the same Argand diagram.",
+            "image_id": "img-0.jpeg",
+            "image_url": "data/images/2025_OL_paper1_img-0.jpeg.png"
+        },
+        {
+            "id": "q2a_ii",
+            "topic": "Complex Numbers",
+            "text": "Work out the modulus of $z_{1}$. That is, find $|z_{1}|$. Give your answer in surd form.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q2a_iii",
+            "topic": "Complex Numbers",
+            "text": "$z_{4}$ is a complex number with $|z_{4}| < |z_{1}|$. Write down one possible value of $z_{4}$. Give your answer in the form $a + bi$, where $a, b \\in \\mathbb{Z}$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q2b",
+            "topic": "Complex Numbers",
+            "text": "$u$ and $v$ are two complex numbers. $u = 4 - 6i$, $v = 1 + i$. Write $\\frac{u}{v}$ in the form $a + bi$, where $a, b \\in \\mathbb{Z}$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q3a",
+            "topic": "Arithmetic",
+            "text": "Rickie is buying protein bars. The cost of a single protein bar is \u20ac3.30. A shop has two special offers: Offer A: 3 bars for the price of 2 bars, Offer B: 12 pack of the same bar for \u20ac29.99. Which offer is cheaper per bar? Use calculations to support your answer.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q3b",
+            "topic": "Inequalities",
+            "text": "Solve the inequality for $x \\in \\mathbb{R}$: $2x + 4 \\geq 6x - 8$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q3c_i",
+            "topic": "Algebra",
+            "text": "$k \\times t = 12$, where $k, t \\in \\mathbb{Z}$. Write down a possible value of $k$ and the corresponding value of $t$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q3c_ii",
+            "topic": "Algebra",
+            "text": "Use your values for $k$ and $t$ from part (c)(i) to find the value of $b$ in the equation: $(x + k)(x + t) = x^{2} + bx + 12$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q4a",
+            "topic": "Algebra",
+            "text": "Solve the following equation in $a \\in \\mathbb{R}$: $5(a - 3) = 2a + 7$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q4b",
+            "topic": "Calculus",
+            "text": "The function $f(x)$ is defined as $f(x) = x^{3} - 3x^{2} + 4x - 8$, where $x \\in \\mathbb{R}$. Find $f'(x)$, the derivative of $f(x)$. Hence, find the slope of the tangent to $f(x)$ at the point $(2, -4)$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q4c_i",
+            "topic": "Calculus",
+            "text": "The diagram below shows the graph of a cubic function $g(x)$. $P, Q,$ and $R$ are points on the graph of $g$. Write each of the letters $P, Q,$ and $R$ in the correct place in the table so that each point matches the description of the derivative at that point, where $g'(x)$ is the derivative of $g(x)$.",
+            "image_id": "img-17.jpeg",
+            "image_url": "data/images/2025_OL_paper1_img-17.jpeg.png"
+        },
+        {
+            "id": "q4c_ii",
+            "topic": "Calculus",
+            "text": "For the point that you matched to $g'(x) = 0$, give a reason for your answer.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q5a",
+            "topic": "Algebra",
+            "text": "Use algebra to solve the simultaneous equations: $3x + 2y = 11$, $x - 4y = -1$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q5b",
+            "topic": "Quadratic Equations",
+            "text": "Solve the following equation in $x \\in \\mathbb{R}$: $3x^{2} - 2x - 4 = 0$. Give each answer correct to 2 decimal places.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q5c_i",
+            "topic": "Quadratic Functions",
+            "text": "The graph of a quadratic function $h(x)$ is shown in the diagram below (drawn to scale). The graph is symmetrical about a vertical line. Based on the graph, which of the following pairs of values of $x$ is a possible set of roots of $h(x)$, that is, values of $x$ for which $h(x) = 0$? Tick one box only: $x = 2$ and $x = 8$, $x = -2$ and $x = -8$, $x = -2$ and $x = 8$, $x = -8$ and $x = 2$.",
+            "image_id": "img-21.jpeg",
+            "image_url": "data/images/2025_OL_paper1_img-21.jpeg.png"
+        },
+        {
+            "id": "q5c_ii",
+            "topic": "Quadratic Functions",
+            "text": "Find the value of $x$, at which $h(x)$ is a minimum.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q6a_i",
+            "topic": "Percentage",
+            "text": "Tara buys a coat for \u20ac90. She then sells the coat at a profit of 25%. Find the selling price of the coat.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q6a_ii",
+            "topic": "Percentage",
+            "text": "The margin on the coat is the profit as a percentage of the selling price. Write down the profit for this coat and hence find the margin.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q6b",
+            "topic": "Scientific Notation",
+            "text": "Write each of the following numbers in the form $a \\times 10^{n}$, where $1 \\leq a < 10, n \\in \\mathbb{Z}$: 58,000 and 0.036.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q6c",
+            "topic": "Scientific Notation",
+            "text": "Light travels at a speed of approximately $3 \\times 10^{5}$ km/second. A light year is the distance travelled by light in 1 year. Find the distance travelled by light in 1 year. (You may assume there are 365 days in a year.) Give your answer, in km, in the form $a \\times 10^{n}$, where $1 \\leq a < 10, n \\in \\mathbb{Z}$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q7a_i",
+            "topic": "Graphs",
+            "text": "The diagram below shows the value of one share for Company A, in euro, on the 1st day of each month from 1st January to 1st July. Use the graph to estimate the value of one share on 1st March.",
+            "image_id": "img-28.jpeg",
+            "image_url": "data/images/2025_OL_paper1_img-28.jpeg.png"
+        },
+        {
+            "id": "q7a_ii",
+            "topic": "Graphs",
+            "text": "Use the graph to identify the month during which the value of one share increased by the greatest amount.",
+            "image_id": "img-28.jpeg",
+            "image_url": "data/images/2025_OL_paper1_img-28.jpeg.png"
+        },
+        {
+            "id": "q7b",
+            "topic": "Percentage",
+            "text": "On 1st August the value of one share was 15% lower than it was on 1st of July. By reading from the graph and doing calculations, estimate the value of one share on 1st of August as accurately as possible and hence plot that point on the diagram.",
+            "image_id": "img-28.jpeg",
+            "image_url": "data/images/2025_OL_paper1_img-28.jpeg.png"
+        },
+        {
+            "id": "q7c",
+            "topic": "Percentage Error",
+            "text": "Later in the year, Liam predicts the value of one share. The error in his prediction is \u20ac1.50, which is a percentage error of 16.3%. Find the value of one share at this time. Give your answer correct to the nearest cent.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q7d_i",
+            "topic": "Exponential Functions",
+            "text": "The value of one share for Company B can be modelled by the function: $P(m) = 2 \\times 1.29^{m}$, where $P(m)$ is the value of one share, in euro, and $m$ is the time, in months, since 1st January, with $0 \\leq m \\leq 6$, $m \\in \\mathbb{R}$. Complete the table below to show the values of $P(m)$ for the given values of $m$. Give each value of $P(m)$ correct to 2 decimal places where relevant.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q7d_ii",
+            "topic": "Graphs",
+            "text": "The graph of Company A is shown again below. On the same diagram, draw the graph of $P(m)$, for $0 \\leq m \\leq 6$, $m \\in \\mathbb{R}$.",
+            "image_id": "img-33.jpeg",
+            "image_url": "data/images/2025_OL_paper1_img-33.jpeg.png"
+        },
+        {
+            "id": "q7d_iii",
+            "topic": "Graphs",
+            "text": "At only one point in the time period shown, the value of one share for Company A is equal to the value of one share for Company B, according to the function $P(m)$. In which month must this have happened?",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q7e_i",
+            "topic": "Linear Functions",
+            "text": "According to the model, the value of one share for Company B reaches its highest value on 1st July, and from then onwards it declines at a steady linear rate of 30 cent per month. A new function is created to model this decline, where $Q(n)$ is the value of one share $n$ months after the time the share reaches its highest value ($n \\in \\mathbb{N}$). Fill in the missing number in the box to complete the expression for $Q(n)$: $Q(n) = \\boxed{} - 0.3n$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q7e_ii",
+            "topic": "Linear Functions",
+            "text": "Using your expression, or otherwise, find how many months it takes for the value of one share for Company B to fall below its value on 1st January, according to the model. Remember that $n \\in \\mathbb{N}$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q8a_i",
+            "topic": "Quadratic Functions",
+            "text": "A company's profit each year will depend on the number of phones it produces, $x$. The company's profit for the first year can be modelled by the function: $P(x) = -1.5x^{2} + 10.5x - 4$, where $P(x)$ is the profit for the first year (in millions of euro) and $x$ is the number of phones (in tens of thousands) it produces in the first year, with $0 \\leq x \\leq 7$, $x \\in \\mathbb{R}$. Find $P(0)$ and explain what it means in the context of the question.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q8a_ii",
+            "topic": "Quadratic Functions",
+            "text": "Complete the table below to show the values of $P(x)$ for the given values of $x$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q8a_iii",
+            "topic": "Graphs",
+            "text": "Draw the graph of $P(x)$ on the axes below for $0 \\leq x \\leq 7$, $x \\in \\mathbb{R}$.",
+            "image_id": "img-38.jpeg",
+            "image_url": null
+        },
+        {
+            "id": "q8a_iv",
+            "topic": "Quadratic Functions",
+            "text": "Use your graph on the previous page to estimate the range of values of $x$ for which the company will have a profit of at least \u20ac6 million. Show your work on the graph.",
+            "image_id": "img-38.jpeg",
+            "image_url": null
+        },
+        {
+            "id": "q8b_i",
+            "topic": "Calculus",
+            "text": "The profit of the company for the second year can be modelled by the function: $Q(x) = -1.5x^{2} + 9.6x - 3.5$, where $Q(x)$ is the profit for the second year (in millions of euro) and $x$ is the number of phones (in tens of thousands) it produces in the second year, with $0 \\leq x \\leq 7$, $x \\in \\mathbb{R}$. Find $Q'(x)$, and hence find the value of $x$ which will give the maximum value of $Q(x)$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q8b_ii",
+            "topic": "Calculus",
+            "text": "Hence, find the maximum value of $Q(x)$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q8c_i",
+            "topic": "Graphs",
+            "text": "The profit for the third year can be modelled by the function $R(x)$, where $R(x)$ is the profit for the third year (in millions of euro) and $x$ is the number of phones (in tens of thousands) it produces in the third year, with $x \\in \\mathbb{R}$. The graph of $R(x)$ is shown below for $0 \\leq x \\leq 6$, $x \\in \\mathbb{R}$. At the start of the third year, the company receives \u20ac3 million in additional funding. As a result, the profit for the third year can actually be modelled by: Profit $= R(x) + 3$. From the graph, estimate $R(2)$ and hence work out the value of $R(2) + 3$.",
+            "image_id": "img-42.jpeg",
+            "image_url": "data/images/2025_OL_paper1_img-42.jpeg.png"
+        },
+        {
+            "id": "q8c_ii",
+            "topic": "Graphs",
+            "text": "On the diagram above, draw the graph of $y = R(x) + 3$ for $0 \\leq x \\leq 6$, $x \\in \\mathbb{R}$, using the same axes and scales.",
+            "image_id": "img-42.jpeg",
+            "image_url": "data/images/2025_OL_paper1_img-42.jpeg.png"
+        },
+        {
+            "id": "q9a_i",
+            "topic": "Compound Interest",
+            "text": "Evan has \u20ac4500 saved. He put this money in a savings account with a rate of 2.8% per annum compound interest. Find how much money will be in the account after 1 year.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q9a_ii",
+            "topic": "Compound Interest",
+            "text": "Hence, or otherwise, find how much money will be in the account at the end of 3 years using the rate of 2.8% per annum compound interest. Give your answer correct to the nearest cent.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q9b_i",
+            "topic": "Sequences and Patterns",
+            "text": "A pattern is made up of dots and line segments. The dots are evenly spaced on a circle. Each pair of dots is joined by a line segment. The first pattern has two dots and a line segment joining them. Each pattern has one more dot than the previous pattern. Complete pattern 3.",
+            "image_id": "img-50.jpeg",
+            "image_url": "data/images/2025_OL_paper1_img-50.jpeg.png"
+        },
+        {
+            "id": "q9b_ii",
+            "topic": "Sequences and Patterns",
+            "text": "Complete the table below to show the number of dots and line segments in the first five patterns of the sequence. The number of line segments in each pattern is in a quadratic sequence.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q9b_iii",
+            "topic": "Sequences and Patterns",
+            "text": "Write down the number of dots in the 1000th pattern.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q9b_iv",
+            "topic": "Sequences and Series",
+            "text": "$S_{n}$ is the total number of dots required to make the first $n$ patterns, where $n \\in \\mathbb{N}$. Write $S_{n}$ in terms of $n$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q9b_v",
+            "topic": "Sequences and Series",
+            "text": "Hence, or otherwise, find the total number of complete patterns in the sequence that can be made using 740 dots.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q9b_vi",
+            "topic": "Quadratic Sequences",
+            "text": "The formula for the number of line segments in term $n$ is of the form: $T(n) = 0.5n^{2} + bn$. Find the value of $b$, where $b \\in \\mathbb{Q}$.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q10a_i",
+            "topic": "Geometry",
+            "text": "A factory makes closed boxes. The lengths of the sides of one of the boxes are shown in the diagram below. Draw a scaled diagram of a net of the box in the grid below. Use the scale 1:10. The length of each small square in the grid is 1 cm.",
+            "image_id": "img-55.jpeg",
+            "image_url": "data/images/2025_OL_paper1_img-55.jpeg.png"
+        },
+        {
+            "id": "q10a_ii",
+            "topic": "Geometry",
+            "text": "Work out the surface area of this box, in cm\u00b2.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q10a_iii",
+            "topic": "Currency Conversion",
+            "text": "The factory owner buys a machine from China for making the boxes. The machine costs 353,819.34 Chinese Yuan, including shipping. The factory owner must also pay \u20ac1890 in customs duty. Using the exchange rate \u20ac1 = 7.61 Chinese Yuan, find the total cost of the machine, in euro, including the customs duty.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q10b",
+            "topic": "Algebra",
+            "text": "Ciara gets paid a wage of \u20ac780 per week for working 40 hours. Ciara gets paid an hourly rate for any hours worked over the 40 hours. This rate is 50% more than the hourly rate for the first 40 hours. On a particular week, Ciara works her regular 40 hours, plus an additional n hours. Her total wage is \u20ac1043.25. Work out the value of n.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q10c_i",
+            "topic": "Algebra",
+            "text": "A shop repairs clothes. The charge for a repair is given by the formula: $C = \\frac{20h + xh}{d}$, where $C$ is the charge for the repair, in euro, $h$ is the number of hours it took to do the repair, $x$ is an extra hourly charge based on the level of difficulty of the work and $d$ is a discount rate, with $d \\geq 1$. Find the charge for a repair when it takes 3 hours to do the repair, the extra hourly charge, $x$, is 3.5, and the discount rate, $d$, is 1.1. Give your answer correct to 2 decimal places.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q10c_ii",
+            "topic": "Algebra",
+            "text": "Find the value of $x$ when the charge for the repair is \u20ac76, the repair takes 4 hours, and the discount rate is 1.2.",
+            "image_id": null,
+            "image_url": null
+        },
+        {
+            "id": "q10c_iii",
+            "topic": "Algebra",
+            "text": "In the formula for $C$ above, $d \\geq 1$. What impact would changing $d$, so that $d < 1$, have on the charge for a repair?",
+            "image_id": null,
+            "image_url": null
+        }
+    ]
+}
