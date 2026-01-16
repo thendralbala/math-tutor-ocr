@@ -50,15 +50,11 @@ with open(current_paper_path, "r") as f:
 # MAIN UI
 st.title(f"{paper_data.get('title', selected_paper_name)}")
 
-# Dynamic Width Calculation
-window_width = streamlit_js_eval(js_expressions='window.innerWidth', key='WIDTH')
+canvas_width = 700
 
-if window_width:
-    canvas_width = min(int(window_width * 0.9), 800)
-    
-    questions = paper_data.get("questions", [])
+questions = paper_data.get("questions", [])
 
-    for q in questions:
+for q in questions:
         with st.container():
             # Header & Topic
             st.subheader(f"Question {q.get('id', 'Unknown')}")
