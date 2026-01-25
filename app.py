@@ -70,8 +70,11 @@ for q in questions:
         st.caption(f"Topic: {q.get('topic', 'General')}")
         st.markdown(q.get('text', ''))
 
-        if q.get("image_url") and os.path.exists(q["image_url"]):
-            st.image(q["image_url"])
+        image_url = q.get("image_url")
+        if image_url:
+            normalized_img_url = image_url.replace("\\", "/")
+            if os.path.exists(normalized_img_url):
+                st.image(normalized_img_url)
         
     with col2:
         st.write("#### Your Solution")
@@ -118,7 +121,9 @@ for q in questions:
                         st.markdown(page.get("text", "No text extracted for this page."))
                         if page.get("image_paths"):
                             for img_path in page["image_paths"]:
-                                if os.path.exists(img_path):
-                                    st.image(img_path)
+                                # Normalize path for cross-platform compatibility
+                                normalized_path = img_path.replace("\\", "/")
+                                if os.path.exists(normalized_path):
+                                    st.image(normalized_path)
 
     st.markdown("---")

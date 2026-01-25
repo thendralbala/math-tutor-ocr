@@ -3,7 +3,7 @@ import base64
 import os
 import json
 import numpy as np
-from mistralai import Mistral, SystemMessage, UserMessage
+from mistralai import Mistral, SystemMessage, UserMessage, TextChunk, ImageURLChunk
 from dotenv import load_dotenv
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -17,16 +17,17 @@ def get_mistral_client():
     return Mistral(api_key=api_key)
 
 try:
-    VECTOR_STORE_PATH = "data/processed/textbook_vectors.npy"
-    METADATA_PATH = "data/processed/textbook_metadata.json"
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    VECTOR_STORE_PATH = os.path.join(BASE_DIR, "data", "processed", "textbook_vectors.npy")
+    METADATA_PATH = os.path.join(BASE_DIR, "data", "processed", "textbook_metadata.json")
     
     textbook_vectors = np.load(VECTOR_STORE_PATH)
     with open(METADATA_PATH, "r") as f:
         textbook_metadata = json.load(f)
-except FileNotFoundError:
+except Exception as e:
     textbook_vectors = None
     textbook_metadata = None
-    print("Warning: Vector store not found. Running without RAG.")
+    print(f"Warning: Vector store not found or could not be loaded ({e}). Running without RAG.")
 
 # --- RAG RETRIEVAL FUNCTION ---
 def find_relevant_pages(query_text, client, top_k=3):
@@ -100,14 +101,14 @@ def get_ai_feedback(image, question_text, client):
     )
     
     user_content = [
-        {"type": "text", "text": f"Question: {question_text}\n\nAnalyze my steps in the image, using the provided textbook context below.\n{context_str}"},
-        {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{img_base64}"}}
+        TextChunk(text=f"Question: {question_text}\n\nAnalyze my steps in the image, using the provided textbook context below.\n{context_str}"),
+        ImageURLChunk(image_url=f"data:image/png;base64,{img_base64}")
     ]
 
     # 4. Get feedback from Mistral
     try:
         response = client.chat.complete(
-            model="mistral-large-latest", # Using a more powerful model for better reasoning
+            model="pixtral-12b-2409", # Use vision-capable model
             messages=[
                 SystemMessage(content=system_prompt),
                 UserMessage(content=user_content)
@@ -118,6 +119,7 @@ def get_ai_feedback(image, question_text, client):
         return feedback, relevant_pages # Return pages for display in the app
 
     except Exception as e:
+        print(f"Mistral API Error: {e}")
         return f"Error getting AI feedback: {str(e)}", []
 
 
