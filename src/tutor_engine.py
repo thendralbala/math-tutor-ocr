@@ -3,8 +3,7 @@ import base64
 import os
 import json
 import numpy as np
-from mistralai import Mistral
-from mistralai.models.chat_completion import ChatMessage
+from mistralai import Mistral, SystemMessage, UserMessage
 from dotenv import load_dotenv
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -96,7 +95,7 @@ def get_ai_feedback(image, question_text, client):
         "{page_number} of your textbook, it mentions the cosine rule. How might that apply here?'\n"
         "4. EXPLICIT REFERENCES: You MUST reference the textbook page number when you use its content.\n"
         "5. LATEX: Always put a space before and after inline dollar signs (e.g., $ x $). "
-        "Never wrap LaTeX in parentheses; put parentheses inside the math block: $ (x+1) $.\n"
+        "Never wrap LaTeX in parentheses; put parentheses inside the math block: $ (x+1) $. \n"
         "6. Use $$ for centered equations."
     )
     
@@ -107,11 +106,11 @@ def get_ai_feedback(image, question_text, client):
 
     # 4. Get feedback from Mistral
     try:
-        response = client.chat(
+        response = client.chat.complete(
             model="mistral-large-latest", # Using a more powerful model for better reasoning
             messages=[
-                ChatMessage(role="system", content=system_prompt),
-                ChatMessage(role="user", content=user_content)
+                SystemMessage(content=system_prompt),
+                UserMessage(content=user_content)
             ],
             max_tokens=700,
         )

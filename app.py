@@ -17,7 +17,13 @@ if 'feedback_storage' not in st.session_state:
 try:
     client = get_mistral_client()
 except ValueError as e:
-    st.error(e)
+    if "MISTRAL_API_KEY" in str(e):
+        st.error(
+            "MISTRAL_API_KEY not found. Please set it in your Hugging Face Space secrets."
+            "Go to 'Settings' > 'Secrets' and add your Mistral API key."
+        )
+    else:
+        st.error(e)
     st.stop()
 
 # --- DATA LOADING ---
