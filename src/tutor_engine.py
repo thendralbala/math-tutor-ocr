@@ -3,7 +3,7 @@ import base64
 import os
 import json
 import numpy as np
-from mistralai import Mistral
+from mistralai import Mistral, SystemMessage, UserMessage
 from dotenv import load_dotenv
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -106,11 +106,11 @@ def get_ai_feedback(image, question_text, client):
 
     # 4. Get feedback from Mistral
     try:
-        response = client.chat.complete(
+        response = client.chat(
             model="mistral-large-latest", # Using a more powerful model for better reasoning
             messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_content}
+                SystemMessage(content=system_prompt),
+                UserMessage(content=user_content)
             ],
             max_tokens=700,
         )

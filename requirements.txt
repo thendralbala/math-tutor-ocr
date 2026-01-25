@@ -50,7 +50,7 @@ matplotlib-inline==0.2.1
 mistralai==1.10.0
 narwhals==2.14.0
 nest-asyncio==1.6.0
-numpy==2.2.6
+numpy==1.26.4
 openai==2.13.0
 opentelemetry-api==1.38.0
 opentelemetry-exporter-otlp-proto-common==1.38.0
@@ -110,3 +110,5 @@ widgetsnbextension==4.0.15
 zipp==3.23.0
 google-generativeai==0.8.6
 scikit-learn==1.4.0
+pytest
+pytest-mock
