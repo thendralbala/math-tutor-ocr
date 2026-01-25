@@ -106,7 +106,7 @@ def get_ai_feedback(image, question_text, client):
 
     # 4. Get feedback from Mistral
     try:
-        response = client.chat(
+        response = client.chat.complete(
             model="mistral-large-latest", # Using a more powerful model for better reasoning
             messages=[
                 {"role": "system", "content": system_prompt},
