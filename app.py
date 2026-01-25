@@ -13,6 +13,8 @@ st.set_page_config(layout='wide', page_title="Leaving Cert Math Tutor")
 if 'feedback_storage' not in st.session_state:
     st.session_state['feedback_storage'] = {}
 
+if 'active_question' not in st.session_state:
+    st.session_state['active_question'] = None
 # Setup Mistral Client
 try:
     client = get_mistral_client()
@@ -62,22 +64,26 @@ if not questions:
     st.stop()
 
 for q in questions:
-    # Use columns for a cleaner layout
-    col1, col2 = st.columns([2, 3]) # Question on the left, canvas/feedback on the right
 
-    with col1:
-        st.subheader(f"Question {q.get('id', 'Unknown')}")
-        st.caption(f"Topic: {q.get('topic', 'General')}")
-        st.markdown(q.get('text', ''))
+    q_id = q.get('id')
 
-        image_url = q.get("image_url")
-        if image_url:
-            normalized_img_url = image_url.replace("\\", "/")
-            if os.path.exists(normalized_img_url):
-                st.image(normalized_img_url)
+    st.subheader(f"Question {q.get('id', 'Unknown')}")
+    st.caption(f"Topic: {q.get('topic', 'General')}")
+    st.markdown(q.get('text', ''))
+
+    image_url = q.get("image_url")
+    if image_url:
+        normalized_img_url = image_url.replace("\\", "/")
+        if os.path.exists(normalized_img_url):
+            st.image(normalized_img_url)
         
-    with col2:
-        st.write("#### Your Solution")
+
+    if st.button(f"Attempt {q_id}", key = f"attempt_btn_{q_id}"):
+        st.session_state['active_question'] = q_id
+
+    if st.session_state['active_question'] == q_id:
+
+        st.write("#### Your Solution:")
         canvas_key = f"canvas_{selected_paper_name}_{q.get('id')}"
         
         canvas_result = st_canvas(
